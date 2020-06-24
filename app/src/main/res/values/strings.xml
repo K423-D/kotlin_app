@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kotlin_app</string>
+    <string name="main_btn">show toast</string>
+    <string name="first_btn1">first activity</string>
+</resources>
