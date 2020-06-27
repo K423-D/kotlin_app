@@ -15,7 +15,9 @@ class FirstActivity : AppCompatActivity() {
         //  获取上个 intent 传递过来的数据
         val msg = intent.getStringExtra("msg")
 
-        Toast.makeText(this, "传过来的 msg：\r\n$msg", Toast.LENGTH_SHORT).show()
+        val toast = Toast.makeText(this, "传过来的 msg：\r\n$msg", Toast.LENGTH_SHORT).show()
+//        toast.setText("传过来的 msg：\r\n$msg")
+//        toast.show()
 
         first_btn1.setOnClickListener {
             //  Log.d("FirstActivity", "传过来的 msg：$msg")
@@ -29,6 +31,7 @@ class FirstActivity : AppCompatActivity() {
             finish()
         }
     }
+
 
     override fun onBackPressed() {
         //  不需要调用 super.onBackPressed()

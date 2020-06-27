@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">Kotlin_app</string>
-    <string name="main_btn">show toast</string>
+    <string name="main_btn">main activity</string>
+    <string name="start_normalactivity">Start NormalActivity</string>
+    <string name="start_dialogactivity">Start DialogActivity</string>
+    <string name="textview_text1">这是一个 texview</string>
+    <string name="edit_text_hint">输入些什么</string>
+    <string name="main_image_content">这是一个imageView</string>
+    <string name="main_btn2">do something</string>
+
     <string name="first_btn1">first activity</string>
+
+    <string name="dialog_btn">Dialog</string>
+
+    <string name="normal_btn">Normal Activity</string>
 </resources>
